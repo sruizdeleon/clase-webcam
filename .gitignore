@@ -1,16 +1,32 @@
-# Compiled class file
+# Archivos y carpetas generados automáticamente por el compilador o IDE
+/bin/
 *.class
 
-# Log file
+# Archivos y carpetas específicos de VSCode
+.vscode/
+*.code-workspace
+
+# Librerías externas que se regeneran o no deberían versionarse
+/lib/
+
+# Archivos temporales o de sistema
 *.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
 
-# BlueJ files
-*.ctxt
+# Configuración de compilación específica
+*.iml
+*.idea/
+.gradle/
+out/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Archivos generados por sistemas de construcción
+/.mvn/
+/target/
 
-# Package Files #
+# Archivos de entorno o dependencias externas
 *.jar
 *.war
 *.nar
@@ -19,6 +35,7 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Backup y archivos generados automáticamente
+*.bak
+*.old
+*~
